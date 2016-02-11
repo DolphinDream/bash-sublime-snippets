@@ -1,0 +1,10 @@
+<snippet>
+	<description>if [[ … ]] fi</description>
+	<content><![CDATA[
+if [[ ${1: condition } ]]; then
+	${0:# statement}
+fi
+]]></content>
+	<tabTrigger>if</tabTrigger>
+	<scope>source.shell</scope>
+</snippet>
